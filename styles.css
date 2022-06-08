@@ -12,18 +12,11 @@
 
 .main_content{
     display: grid;
-    max-height: 80%;
+    min-height: 80%;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     align-content: end;
     
-}
-
-.box_1,
-.box_2,
-.box_3{
-    height: 12vh;
-    margin: 10px;
 }
 
 main{
@@ -56,6 +49,8 @@ footer{
 .box_2,
 .box_3 {
     border: 1px solid black;
+    min-height: 12vh;
+    margin: 10px;
     background-color: rgb(254, 191, 114);
     display: flex;
     justify-content: center;
