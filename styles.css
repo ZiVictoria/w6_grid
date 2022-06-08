@@ -2,15 +2,21 @@
     display: grid;
     height: 100vh;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 20% 1fr 30%;
+    grid-template-rows: 15% 1fr 25%;
+}
+
+.header_main{
+    display: grid;
+    min-height: 15%;
 }
 
 .main_content{
     display: grid;
-    height: 100%;
+    min-height: 80%;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     align-content: end;
+    
 }
 
 .box_1,
@@ -18,7 +24,6 @@
 .box_3{
     height: 12vh;
     margin: 10px;
-
 }
 
 main{
